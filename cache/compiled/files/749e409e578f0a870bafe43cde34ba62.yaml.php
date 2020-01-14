@@ -2,11 +2,11 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'J:/riberry/e/grav-skeleton-multilang-site/user/config/system.yaml',
-    'modified' => 1579027629,
+    'modified' => 1579029027,
     'data' => [
         'absolute_urls' => false,
         'home' => [
-            'alias' => '/blog'
+            'alias' => '/leadership'
         ],
         'languages' => [
             'supported' => [
