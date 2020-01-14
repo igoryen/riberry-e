@@ -1,13 +1,25 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1579022999,
-    'checksum' => '2b90f0cec70e565698cd9c3341db8ad6',
+    'timestamp' => 1579023607,
+    'checksum' => 'f73ef891c911d3ce449be25d6dec09be',
     'files' => [
         'user/config' => [
+            'backups' => [
+                'file' => 'user/config/backups.yaml',
+                'modified' => 1579023000
+            ],
+            'media' => [
+                'file' => 'user/config/media.yaml',
+                'modified' => 1579023000
+            ],
             'plugins/highlight' => [
                 'file' => 'user/config/plugins/highlight.yaml',
                 'modified' => 1575502576
+            ],
+            'scheduler' => [
+                'file' => 'user/config/scheduler.yaml',
+                'modified' => 1579023000
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -16,6 +28,10 @@ return [
             'site' => [
                 'file' => 'user/config/site.yaml',
                 'modified' => 1575502576
+            ],
+            'streams' => [
+                'file' => 'user/config/streams.yaml',
+                'modified' => 1579023000
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
@@ -906,6 +922,9 @@ node_modules'
                 'yaml_compat' => true,
                 'twig_compat' => true
             ]
+        ],
+        'scheduler' => [
+            
         ]
     ]
 ];
