@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1579029032,
-    'checksum' => '4ed74505ee21b575cf5b719e4205634e',
+    'timestamp' => 1579039844,
+    'checksum' => 'b87ebef0eb4bb4dc3d12d4e0fd467316',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -27,7 +27,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1575502576
+                'modified' => 1579039763
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -35,7 +35,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1579029027
+                'modified' => 1579039844
             ]
         ],
         'system/config' => [
@@ -669,7 +669,7 @@ node_modules'
                 'description' => 'My Grav Site'
             ],
             'summary' => [
-                'enabled' => true,
+                'enabled' => false,
                 'format' => 'short',
                 'size' => 300,
                 'delimiter' => '==='
@@ -796,7 +796,7 @@ node_modules'
                 'etag' => false,
                 'vary_accept_encoding' => false,
                 'redirect_default_route' => false,
-                'redirect_default_code' => 302,
+                'redirect_default_code' => '302',
                 'redirect_trailing_slash' => true,
                 'ignore_files' => [
                     0 => '.DS_Store'
@@ -862,7 +862,7 @@ node_modules'
                 ]
             ],
             'errors' => [
-                'display' => true,
+                'display' => 1,
                 'log' => true
             ],
             'log' => [
@@ -894,7 +894,8 @@ node_modules'
                 'allowed_fallback_types' => [
                     
                 ],
-                'auto_metadata_exif' => false
+                'auto_metadata_exif' => false,
+                'upload_limit' => 8388608
             ],
             'session' => [
                 'enabled' => true,
