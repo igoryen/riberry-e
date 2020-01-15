@@ -8,6 +8,7 @@ content:
         by: default
         dir: asc
         custom:
+            - _header
             - _about
 
 ---
