@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1579039844,
-    'checksum' => 'b87ebef0eb4bb4dc3d12d4e0fd467316',
+    'timestamp' => 1579109484,
+    'checksum' => 'f2e22608d1fdbc1530c2ff91ffaea5d5',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -100,6 +100,10 @@ return [
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
                 'modified' => 1575502580
+            ],
+            'plugins/seo' => [
+                'file' => 'user/plugins/seo/seo.yaml',
+                'modified' => 1579109483
             ]
         ]
     ],
@@ -309,6 +313,15 @@ return [
             'problems' => [
                 'enabled' => true,
                 'built_in_css' => true
+            ],
+            'seo' => [
+                'enabled' => true,
+                'article' => true,
+                'restaurant' => true,
+                'event' => true,
+                'organization' => true,
+                'musicevent' => true,
+                'person' => true
             ],
             'highlight' => [
                 'theme' => 'monokai_sublime'
