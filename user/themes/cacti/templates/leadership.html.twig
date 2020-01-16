@@ -1,0 +1,24 @@
+{% extends 'partials/base.html.twig' %}
+
+
+
+{% block content %}
+	<pre>user/themes/cacti/templates/leadership.html.twig</pre>
+
+    {{ page.title }}
+
+    <hr>
+    
+    {% for p in page.collection %}
+    	<h3>{{ p.title }}</h3>
+    	
+    	{% for gr in p.children %}
+            
+            {% include 'leader.html.twig' %}    		
+            
+    	{% endfor %}    	
+    	
+    
+    {% endfor %}
+
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends 'partials/base.html.twig' %}
+
+
+
+{% block content %}
+	<pre>user/themes/cacti/templates/team.html.twig</pre>
+
+    {{ page.title }}
+
+    <hr>
+    
+    {% for p in page.collection %}
+    	<h2>{{ p.title }}</h2>
+    	
+
+    	
+    	{{ p.summary }}
+    
+    {% endfor %}
+
+{% endblock %}
