@@ -31,6 +31,13 @@ form:
                                 required: true
                                 type: text
 
+                        header.image:
+                            type: file
+                            label: "Leader's Photo"
+                            destination: 'self@'
+                            accept:
+                                - image/*
+
                         header.bio:
                             type: editor
                             label: Bio

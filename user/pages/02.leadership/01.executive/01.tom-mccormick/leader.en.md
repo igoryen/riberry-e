@@ -1,6 +1,5 @@
 ---
 title: 'Tom McCormick'
-media_order: tom.jpg
 date: '16:00 10-07-2015'
 taxonomy:
     tag:
@@ -27,7 +26,11 @@ restaurant:
 headline: Tom
 content:
     items: '@self'
+image:
+    user/pages/02.leadership/01.executive/01.tom-mccormick/tom.jpg:
+        name: tom.jpg
+        type: image/jpeg
+        size: 1137772
+        path: user/pages/02.leadership/01.executive/01.tom-mccormick/tom.jpg
 ---
 
-# summary
-TNG owns and operates a portfolio of leading financial technology companies with services available in 18 countries, each providing software solutions to financial institutions: Get Connexions a platform to customize and manage residential and commercial appraisal processes; Nationwide Appraisal Services (NAS) for valuation risk management and analytics; Home Closing Services (HCS) virtual property and mortgage legal closings; Nationwide Recovery Services (NRS) defaulted debt recovery management of secured and unsecured loans; and Nationwide Energy Advisors (NEA) for retrofitting real estate properties.
