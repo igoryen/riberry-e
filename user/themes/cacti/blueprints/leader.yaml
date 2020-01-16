@@ -1,0 +1,40 @@
+title: "Leader Info"
+'@extends':
+    type: default
+    context: blueprints://pages
+
+form:
+    fields:
+        tabs:
+            type: tabs
+            active: 1
+
+            fields:
+                leader_info:
+                    type: tab
+                    title: 'Leader Info'
+                    
+                    fields:
+                        header.name:
+                            type: text
+                            label: 'Full Name'
+                            default: '' 
+                            validate:
+                                required: true
+                                type: text
+
+                        header.job:
+                            type: text
+                            label: 'Job Title'
+                            default: '' 
+                            validate:
+                                required: true
+                                type: text
+
+                        header.bio:
+                            type: editor
+                            label: Bio
+                            default: 'Leader biography' 
+                            validate:
+                                required: true
+                                type: editor
