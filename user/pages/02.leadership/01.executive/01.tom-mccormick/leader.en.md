@@ -23,14 +23,14 @@ restaurantenabled: false
 restaurant:
     acceptsReservations: 'yes'
     priceRange: $
-headline: Tom
-content:
-    items: '@self'
 image:
     user/pages/02.leadership/01.executive/01.tom-mccormick/tom.jpg:
         name: tom.jpg
         type: image/jpeg
         size: 1137772
         path: user/pages/02.leadership/01.executive/01.tom-mccormick/tom.jpg
+headline: Tom
+content:
+    items: '@self'
 ---
 

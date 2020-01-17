@@ -3,22 +3,24 @@
 
 
 {% block content %}
-	<pre>user/themes/cacti/templates/leadership.html.twig</pre>
+    <div id="leadership">
+        
 
-    {{ page.title }}
+        {{ page.title }}
 
-    <hr>
-    
-    {% for p in page.collection %}
-    	<h3>{{ p.title }}</h3>
-    	
-    	{% for gr in p.children %}
+        <hr>
+        
+        {% for p in page.collection %}
+            <h3>{{ p.title }}</h3>
             
-            {% include 'leader.html.twig' %}    		
+            {% for gr in p.children %}
+                
+                {% include 'leader.html.twig' %}
+                
+            {% endfor %}    	
             
-    	{% endfor %}    	
-    	
-    
-    {% endfor %}
+        
+        {% endfor %}
+    </div>
 
 {% endblock %}
