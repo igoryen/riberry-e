@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1579207299,
-    'checksum' => '72e3cb7e3f6c90ba6cdf2f8e182adf61',
+    'timestamp' => 1579287765,
+    'checksum' => '60befb46f657f55c29c1f70ead385cb0',
     'files' => [
         'system/languages' => [
             'ar' => [
@@ -181,7 +181,7 @@ return [
             ],
             'plugins/leader' => [
                 'file' => 'user/plugins/leader/languages.yaml',
-                'modified' => 1579193516
+                'modified' => 1579287744
             ],
             'plugins/pagination' => [
                 'file' => 'user/plugins/pagination/languages.yaml',
@@ -403,15 +403,15 @@ return [
         'user/plugins/seo/languages' => [
             'en' => [
                 'file' => 'user/plugins/seo/languages/en.yaml',
-                'modified' => 1579109483
+                'modified' => 1579287744
             ],
             'nl' => [
                 'file' => 'user/plugins/seo/languages/nl.yaml',
-                'modified' => 1579109483
+                'modified' => 1579287744
             ],
             'ro' => [
                 'file' => 'user/plugins/seo/languages/ro.yaml',
-                'modified' => 1579109483
+                'modified' => 1579287744
             ]
         ]
     ],
