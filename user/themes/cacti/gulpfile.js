@@ -19,6 +19,7 @@ function defaultTask(done) {
 
 var input = [
     'css/raw/navigation.scss',
+    'css/raw/body.scss',
     'css/raw/leadership.scss'
 ];
 

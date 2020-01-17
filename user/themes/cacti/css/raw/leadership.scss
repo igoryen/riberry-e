@@ -3,17 +3,65 @@
 @import "styles2";
 
 .jim {
-	font-size: 3em;
-	border: 1em solid $endeavour; //
+    font-size: 3em;
+    border: 1em solid $endeavour; //
 }
 
 #leadership {
-    .leader {
-        background-color: green;
-        border: 1em solid blue;
-        padding: 2em;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    max-width: 851px; // like Facebook
+}
+
+.leadership-team {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 1em;
+    margin-bottom: 1em;
+    h3 {
+        text-transform: uppercase;
     }
-    .headshot {
-        border: 1em solid red;
+}
+
+.leadership-team__name {
+    display: flex;
+    justify-content: center;
+}
+
+.leadership-team__member {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    margin-bottom: 1em;
+}
+.leadership-team__member__headshot {
+    // border: 1em solid red;
+    flex: 1 0 200px;
+    img {
+        width: 100%;
     }
+}
+.leadership-team__member__deets {
+    margin-left: 1em;
+}
+
+.leadership-team__member__basic-data {
+    h2 {
+        color: #333;
+        font-size: 2em;
+        font-style: normal;
+    }
+}
+
+
+.leadership-team__member__deets,
+.leadership-team__member__headshot {
+    display: flex;
+    flex-direction: column;
+}
+
+.leadership-team__member__bio {
+    background-color: #fff;
 }

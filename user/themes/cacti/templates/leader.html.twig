@@ -1,15 +1,18 @@
 {% set image = gr.media.images|first %}
 
-<dev class="leader">
-	
-    <h2>{{ gr.header.name}}</h2>
-    <h3>{{ gr.header.job}}</h3>
-    <div class="headshot">
-        <img src="{{ image.url }}" alt="{{ gr.header.name }}">
-    </div>
-    <div class="bio">
-        <p>{{ gr.header.bio|markdown}}</p>
-    </div>
-    
-    <hr>
+<dev class="leadership-team__member">
+
+	<div class="leadership-team__member__headshot">
+		<img src="{{ image.url }}" alt="{{ gr.header.name }}">
+	</div>
+
+	<div class="leadership-team__member__deets">
+		<div class="leadership-team__member__basic-data">
+			<h2>{{ gr.header.name}}</h2>
+			<h3>{{ gr.header.job}}</h3>
+		</div>
+		<div class="leadership-team__member__bio">
+			<p>{{ gr.header.bio|markdown}}</p>
+		</div>
+	</div>
 </dev>

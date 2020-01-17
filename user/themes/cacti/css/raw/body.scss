@@ -1,0 +1,11 @@
+#wrapper {
+    background-color: #999;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    & > div {
+        // max-width: 851px; // like Facebook
+        display: flex;
+        justify-content: center;
+    }
+}

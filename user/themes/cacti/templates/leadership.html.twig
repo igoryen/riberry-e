@@ -6,19 +6,22 @@
     <div id="leadership">
         
 
-        {{ page.title }}
+        {# {{ page.title }} #}
 
         <hr>
         
         {% for p in page.collection %}
-            <h3>{{ p.title }}</h3>
-            
-            {% for gr in p.children %}
-                
-                {% include 'leader.html.twig' %}
-                
-            {% endfor %}    	
-            
+            <div class="leadership-team">
+                <div class="leadership-team__name">
+                    <h3>{{ p.title }}</h3>
+                </div>
+
+                {% for gr in p.children %}
+
+                    {% include 'leader.html.twig' %}
+
+                {% endfor %}
+            </div>
         
         {% endfor %}
     </div>
