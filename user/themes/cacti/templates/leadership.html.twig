@@ -1,0 +1,26 @@
+{% extends 'partials/base.html.twig' %}
+
+
+
+{% block content %}
+    <div id="leadership">
+        
+
+        {{ page.title }}
+
+        <hr>
+        
+        {% for p in page.collection %}
+            <h3>{{ p.title }}</h3>
+            
+            {% for gr in p.children %}
+                
+                {% include 'leader.html.twig' %}
+                
+            {% endfor %}    	
+            
+        
+        {% endfor %}
+    </div>
+
+{% endblock %}

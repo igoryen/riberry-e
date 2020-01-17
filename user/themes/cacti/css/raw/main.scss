@@ -1,0 +1,19 @@
+@import "partials/partials";
+@import "styles1";
+@import "styles2";
+
+.jim {
+	font-size: 3em;
+	border: 1em solid $endeavour; //
+}
+
+#leadership {
+    .leader {
+        background-color: green;
+        border: 1em solid blue;
+        padding: 2em;
+    }
+    .headshot {
+        border: 1em solid red;
+    }
+}
