@@ -1,5 +1,7 @@
 <section id="navigation">
-
+    {% if config.plugins.langswitcher.enabled %}
+        {% include 'partials/langswitcher.html.twig' %}
+    {% endif %}
     <nav class="main-nav">
         {% for page in pages.children.visible %}
             {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
@@ -13,7 +15,5 @@
             <a class="cta" href="{{ base_url }}{{ pages.find('/blog').rawRoute }}.rss">{{ 'SUBSCRIBE'|t }}</a>
         {% endif %}
     </nav>
-    {% if config.plugins.langswitcher.enabled %}
-        {% include 'partials/langswitcher.html.twig' %}
-    {% endif %}
+    
 </section>

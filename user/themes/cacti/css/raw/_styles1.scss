@@ -24,21 +24,7 @@
 
     *, *:before, *:after { box-sizing: border-box; }
 
-    body {
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .anthony {
-        color: green;
-        font-size: 1em;
-        background-color: yellow;
-
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: left;
-    }
+    
 
 //=========================================
 //      SECTION A

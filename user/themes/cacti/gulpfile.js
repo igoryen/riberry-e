@@ -18,7 +18,8 @@ function defaultTask(done) {
 }
 
 var input = [
-  'css/raw/leadership.scss'
+    'css/raw/navigation.scss',
+    'css/raw/leadership.scss'
 ];
 
 var output = 'css/compiled/';

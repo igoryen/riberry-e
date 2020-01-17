@@ -13,8 +13,8 @@
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="/rss.xml">
 
   {% block stylesheets %}
-    {% do assets.addCss('theme://css/style.css',100) %}
-    {% do assets.addCss('theme://css/compiled/all.css',90) %}
+    {% do assets.addCss('theme://css/style.css',90) %}
+    {% do assets.addCss('theme://css/compiled/all.css',20) %}
   {% endblock %}
   
   {% block assets deferred %}
@@ -22,23 +22,26 @@
   {% endblock %}
 </head>
 <body>
+    <section class="body-wrapper">
+    
 
-    {% include 'partials/navigation.html.twig' %}
+        {% include 'partials/navigation.html.twig' %}
 
-    <section id="wrapper">
-        {% block header %}
-            {% if page.header.header is not same as(false) and theme_config.title_header %}
-                {% include 'partials/header.html.twig' %}
-            {% endif %}
-        {% endblock %}
+        <section id="wrapper">
+            {% block header %}
+                {% if page.header.header is not same as(false) and theme_config.title_header %}
+                    {% include 'partials/header.html.twig' %}
+                {% endif %}
+            {% endblock %}
 
-        <div class="{{ page.header.class }}">
-        {% block content %}{% endblock %}
-        </div>
+            <div class="{{ page.header.class }}">
+            {% block content %}{% endblock %}
+            </div>
 
-        {% block footer %}
-        {% include 'partials/footer.html.twig' %}
-        {% endblock %}
+            {% block footer %}
+            {% include 'partials/footer.html.twig' %}
+            {% endblock %}
+        </section>
     </section>
 
     {% if site.analytics %}
