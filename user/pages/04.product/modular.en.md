@@ -1,5 +1,6 @@
 ---
 title: Product
+class: product
 menu: Product
 onpage_menu: true
 content:

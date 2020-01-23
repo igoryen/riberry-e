@@ -24,6 +24,7 @@ var input = [
     'css/raw/home.scss',
     'css/raw/leadership.scss',
     'css/raw/contactus.scss',
+    'css/raw/product.scss',
     'css/raw/contact_form.scss',
     'css/raw/footer.scss'
 ];
