@@ -2,7 +2,7 @@
 title: contact
 cache_enable: false
 form:
-    name: contact
+    name: contact_form
     action: /contact
     fields:
         -
@@ -44,5 +44,3 @@ form:
             message: 'Thank you for getting in touch!'
 ---
 
-## CONTACT US
-### Lorem ipsum dolor sit amet consectetur.

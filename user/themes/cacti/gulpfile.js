@@ -20,7 +20,12 @@ function defaultTask(done) {
 var input = [
     'css/raw/navigation.scss',
     'css/raw/body.scss',
-    'css/raw/leadership.scss'
+    'css/raw/profile.scss',
+    'css/raw/home.scss',
+    'css/raw/leadership.scss',
+    'css/raw/contactus.scss',
+    'css/raw/contact_form.scss',
+    'css/raw/footer.scss'
 ];
 
 var output = 'css/compiled/';

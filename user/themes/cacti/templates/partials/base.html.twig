@@ -22,28 +22,33 @@
   {% endblock %}
 </head>
 <body>
+    <!-- aba -->
     <section class="body-wrapper">
-    
+        <!-- abc -->
 
         {% include 'partials/navigation.html.twig' %}
-
+        <!-- acc -->
         <section id="wrapper">
             {% block header %}
                 {% if page.header.header is not same as(false) and theme_config.title_header %}
+                    <!-- bbb -->
                     {% include 'partials/header.html.twig' %}
+                    <!-- bcb -->
                 {% endif %}
             {% endblock %}
-
+            <!-- 00100-->
             <div class="{{ page.header.class }}">
-            {% block content %}{% endblock %}
+                {% block content %}{% endblock %}
             </div>
+            <!-- 00200-->
 
             {% block footer %}
             {% include 'partials/footer.html.twig' %}
             {% endblock %}
         </section>
+        <!-- adc -->
     </section>
-
+    <!-- xab -->
     {% if site.analytics %}
     {% include 'partials/analytics.html.twig' %}
     {% endif %}

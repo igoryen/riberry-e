@@ -1,5 +1,6 @@
 ---
 title: Contact
+class: contactus
 menu: Contact
 onpage_menu: true
 content:
