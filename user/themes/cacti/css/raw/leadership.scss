@@ -9,17 +9,9 @@
 
 #leadership {
     background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    max-width: 851px; // like Facebook
 }
 
 .leadership-team {
-    display: flex;
-    flex-direction: column;
-    
-    padding: 1em;
-    margin-bottom: 1em;
     h3 {
         text-transform: uppercase;
     }
@@ -37,7 +29,6 @@
     margin-bottom: 1em;
 }
 .leadership-team__member__headshot {
-    // border: 1em solid red;
     flex: 1 0 200px;
     img {
         width: 100%;

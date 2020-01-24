@@ -1,18 +1,18 @@
-#wrapper {
-    background-color: antiquewhite;
+.body-wrapper {
     display: flex;
     flex-direction: column;
-    margin: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+    align-items: center;
+    // background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    margin: 6em 1em 1em;
     & > div {
         // background-color: #ccc;
         margin: 1em;
-        // max-width: 851px; // like Facebook
-        display: flex;
-        justify-content: center;
-    }
-    .home {
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 0px 40px 20px 40px;
+        max-width: 851px; // like Facebook
     }
 }

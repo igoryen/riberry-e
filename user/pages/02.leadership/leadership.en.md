@@ -1,5 +1,6 @@
 ---
 title: Leadership
+class: leadership
 body_classes: leadership
 twittercardoptions: summary
 articleenabled: false
